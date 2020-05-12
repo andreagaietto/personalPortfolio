@@ -1048,6 +1048,10 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	letter-spacing: .4rem;
 }
 
+span.text-link, a.text-link, a:visited.text-link {
+	color: #888888;
+}
+
 /**
  * responsive:
  * common styles
@@ -1806,6 +1810,7 @@ header .logo a {
 	-webkit-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+	padding: 15px;
 }
 
 #portfolio .overlay {
@@ -1820,7 +1825,9 @@ header .logo a {
 	-webkit-transition: all 0.5s ease-in-out;
 	-ms-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+	border-bottom-style: solid;
 }
+
 
 #portfolio .folio-item-table {
 	display: table;
@@ -2522,6 +2529,9 @@ footer .footer-social li {
 }
 footer .footer-social li a {
 	color: #FFFFFF;
+}
+footer .copyright {
+	font-size: 1.2rem;
 }
 footer .copyright span {
 	display: inline-block;
